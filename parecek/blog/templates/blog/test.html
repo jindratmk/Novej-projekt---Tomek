@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tydýs</title>
+    <style>
+    @keyframes colorChange {
+      0% { color: red; }
+      25% { color: blue; }
+      50% { color: green; }
+      75% { color: orange; }
+      100% { color: purple; }
+    }
+
+    h1 {
+      font-size: 3em;
+      animation: colorChange 5s infinite;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>uzasna hmmmm tl</h1>
+    </header>
+
+    <h1>{{random_number}}</h1>
+
+    <script>
+        function refreshPage() {
+            location.reload();
+        }
+    </script>
+
+    <button onclick="refreshPage()">Refresh Page</button>
+
+    <footer>
+        <p>&copy; 2024 Jimdří Samel</p>
+    </footer>
+
+    <!-- Add any additional scripts or link your Python function script here -->
+    <!-- Example: <script src="path/to/your/python-script.js"></script> -->
+
+</body>
+</html>
